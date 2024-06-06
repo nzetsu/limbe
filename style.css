@@ -201,7 +201,7 @@ html, body {
   height: 740px;
   max-height: 740px;
   padding-bottom: 0;
-  background: url("https://i.imgur.com/9685CtV.jpg") no-repeat top center scroll;
+  background: url("hero_1.JPG") no-repeat top center scroll;
   background-size: cover;
 }
 @media screen and (max-width: 1365px) {
