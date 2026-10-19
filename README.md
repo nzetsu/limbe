@@ -12,7 +12,26 @@ Alle Dateien und den Ordner `assets` gemeinsam in das Repository hochladen. In G
 
 **Wichtig:** Ohne echte Formspree-ID sendet das Formular bewusst nichts und zeigt einen Hinweis. Erst nach erfolgreicher Serverantwort erscheint die Erfolgsmeldung.
 
-## Datenschutz / Freigabe
-Vor Veröffentlichung ein gültiges Impressum und eine Datenschutzerklärung verlinken. In der Datenschutzerklärung die Datenverarbeitung über Formspree (inkl. ggf. internationaler Übermittlung) transparent erläutern und die rechtlichen Voraussetzungen prüfen. Die Einwilligung im Formular bezieht sich nur auf die Kontaktaufnahme zu diesem Event, nicht auf Werbung oder Newsletter.
+## Datenschutz / Freigabe – verpflichtend vor öffentlichem Start
 
-Das Formular sammelt Name, E-Mail, optional Unternehmen und die Zustimmung zur Kontaktaufnahme. Keine +1-Abfrage, keine Terminbuchung, keine Zahlung.
+**Status: NOCH NICHT ZUR VERÖFFENTLICHUNG FREIGEGEBEN.** Die konkreten, geprüften URLs für Impressum und Datenschutzerklärung fehlen. Deshalb wurden bewusst keine erfundenen oder ungültigen Links eingesetzt.
+
+- [ ] Gültiges Impressum der LIMBÉ GmbH bereitstellen und auf der Landingpage verlinken.
+- [ ] Gültige Datenschutzerklärung bereitstellen und auf der Landingpage verlinken (insbesondere unmittelbar am Formular gut auffindbar).
+- [ ] In der Datenschutzerklärung Formspree als Formular-Dienstleister, die Kategorien der Daten, Zwecke, Rechtsgrundlage, Aufbewahrung/Löschung und ggf. internationale Übermittlungen und ihre Voraussetzungen transparent erläutern; tatsächliche Konfiguration und vertragliche Grundlagen prüfen.
+- [ ] Einwilligungstext ist ausschließlich auf Kontaktaufnahme für **diesen** Community-Abend und die Terminabstimmung begrenzt; **keine** Werbung und **kein** Newsletter.
+- [ ] Tatsächliche Formspree-ID eintragen und Übermittlung, Benachrichtigungen sowie Datenschutzhinweise vor dem Verteilen des QR-Codes testen.
+
+**Erhobene Felder:** Vor- und Nachname (Pflicht), E-Mail (Pflicht), Unternehmen (optional), Checkbox zur veranstaltungsbezogenen Kontaktaufnahme (Pflicht). Zusätzlich wird technisch die Herkunft `design-offices-ostbahnhof` übertragen. Keine +1-Abfrage, keine Terminbuchung, keine Zahlung.
+
+**Einbindung:** In `index.html` stehen bereits ein kurzer Datenschutzhinweis beim Formular sowie ein HTML-Kommentar am Footer als Markierung für die noch einzufügenden echten Links. Die rechtliche Prüfung und die endgültigen URLs sind noch offen. Dies ist keine Rechtsberatung.
+
+
+## Rechtstexte V4 – Freigabe vor öffentlicher Veröffentlichung
+- `impressum.html` und `datenschutz.html` sind verlinkt; Datenschutzerklärung ist ausdrücklich ein **prüfpflichtiger Entwurf**.
+- USt-IdNr. (falls vorhanden) ergänzen.
+- Formspree-Endpunkt `DEINE_FORM_ID` ersetzen und Testübermittlung durchführen.
+- Formspree-Vertrag/AVV, etwaige Drittlandtransfers und Löschfristen prüfen.
+- GitHub Pages und Google Fonts datenschutzrechtlich prüfen; Google Fonts vorzugsweise lokal hosten.
+- Einwilligung bleibt auf diese Veranstaltung begrenzt. Keine +1, keine Zahlung, kein Newsletter.
+- Rechtstexte und technische Umsetzung vor Veröffentlichung fachkundig prüfen lassen.
